@@ -1,0 +1,25 @@
+{
+  "name": "marktl",
+  "version": "1.0.0",
+  "description": "javascript template engine",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y1j2x34/marktl.git"
+  },
+  "keywords": [
+    "template",
+    "js",
+    "fast",
+    "javascript"
+  ],
+  "author": "'y1j2x34' <y1j2x34@qq.com> (http://www.vgerbot.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y1j2x34/marktl/issues"
+  },
+  "homepage": "https://github.com/y1j2x34/marktl#readme"
+}
