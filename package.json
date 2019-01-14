@@ -4,7 +4,16 @@
   "description": "javascript template engine",
   "main": "dist/index.js",
   "scripts": {
-    "test": "npm test"
+      "lint": "tslint {src,test}/**/*.ts",
+      "format": "tslint {src,test}/**/*.ts --fix",
+      "precommit": "lint-staged",
+      "commitmsg": "commitlint -E HUSKY_GIT_PARAMS"
+  },
+  "lint-staged": {
+      "{src,test}/**/*.ts": [
+          "npm run format",
+          "git add"
+      ]
   },
   "repository": {
     "type": "git",
