@@ -1,0 +1,4 @@
+--require bin/tshook
+--reporter mochawesome
+--reporter-options reportDir=.mochawesome
+--ui bdd

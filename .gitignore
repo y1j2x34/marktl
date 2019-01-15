@@ -9,6 +9,7 @@ lib-cov
 coverage
 .rpt2_cache
 .nyc_output
+.mochawesome
 .npm
 logs
 *.log
